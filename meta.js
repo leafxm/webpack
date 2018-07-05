@@ -78,6 +78,10 @@ module.exports = {
         "type": "confirm",
         "message": "Install vuex?"
     },
+    vueCanvasToImg: {
+      "type": "confirm",
+      "message": "Use vueCanvasToImg?"
+    },
     lint: {
       when: 'isNotTest',
       type: 'confirm',

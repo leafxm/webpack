@@ -27,7 +27,8 @@
   "dependencies": {
     "vue": "^2.5.2"{{#router}},
     "vue-router": "^3.0.1"{{/router}}{{#vuex}},
-    "vuex": "^2.1.1"{{/vuex}}
+    "vuex": "^2.1.1"{{/vuex}}{{#vueCanvasToImg}},
+    "@vue-canvas-to-img": "git+https://gitlab.corp.youdao.com/webfront-components-vue/vue-canvas-to-img.git"
   },
   "devDependencies": {
     {{#lint}}

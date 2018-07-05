@@ -14,6 +14,11 @@ import store from  './store/store'
 Vue.use(Vuex)
 {{/vuex}}
 
+{{#vueCanvasToImg}}
+import {VueCanvasToImg}  from 'vue-canvas-to-img';
+Vue.use(VueCanvasToImg)
+{{/vueCanvasToImg}}
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
